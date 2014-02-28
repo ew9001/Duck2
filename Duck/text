@@ -1,0 +1,5 @@
+java -jar selenium-server-standalone-2.38.0.jar -role node -port 5556 -hub http://10.10.10.34:4444/grid/register -maxSession=20 -browser browserName=firefox,platform=LINUX -maxInstances=5
+
+java -jar selenium-server-standalone-2.38.0.jar -role node -port 5556 -hub http://10.10.10.34:4444/grid/register -maxSession=20 -browser browserName=firefox,platform=LINUX -maxInstances=5
+
+java -jar selenium-server-standalone-2.38.0.jar -role node -port 5557 -hub http://10.10.43.201:4444/grid/register-maxSession 20 -browser "browserName=internet explorer,version=9,platform=WINDOWS" -browser browserName=firefox,platform=WINDOWS -browser browserName=chrome,platform=WINDOWS -maxInstances=10
