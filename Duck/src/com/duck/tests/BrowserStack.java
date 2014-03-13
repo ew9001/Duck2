@@ -16,8 +16,8 @@ public class BrowserStack {
   public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 
   
-  
-  public static void main(String[] args) throws Exception {
+  @Test
+  public void testPageLoadsBrowserStack() throws Exception {
  
 
     
